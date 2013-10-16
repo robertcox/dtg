@@ -10,3 +10,4 @@
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
 Dtg::Application.config.secret_key_base = '2f25c725fe330348fe662f347fd3045dc71e69560e70ea93dc55d8c079781d6ef6e68432359e6ec817f573a5386b3a15ef0304b8b59a01251cabb45350e19a07'
+Dtg::Application.config.secret_token = "some secret phrase of at least 30 characters"
